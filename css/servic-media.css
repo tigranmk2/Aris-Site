@@ -1,0 +1,34 @@
+@media screen and (max-width:480px) {
+    #text .title h1{
+        font-size: 62px!important;
+    }
+
+    #text .title p {
+        font-size: 14px!important;
+    }
+
+    #text button {
+        margin: 20px auto!important;
+    }
+
+    #mac .line{
+        flex-wrap: wrap;
+    }
+
+    .boxs{
+        padding: 20px!important;
+    }
+
+    .boxs .bottom h3{
+        font-size: 12px!important;
+    }
+
+    .boxs .top h1 {
+        font-size: 38px!important;
+    }
+
+     .boxs .bottom .text {
+        display: flex;
+        flex-direction: column!important;
+    }
+}

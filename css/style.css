@@ -1,0 +1,445 @@
+
+
+#top .background,
+#arik .background {
+    width: 50%;
+    transform: translateX(50%);
+    z-index: -1;
+}
+
+#top .title {
+    text-align: center;
+    transform: translateY(-40%);
+    color: rgba(218, 197, 167, 1);
+}
+
+#top .title h1 {
+    font-size: 160px;
+    font-family: 'Gambetta-LightItalic';
+}
+
+#top .title p {
+    font-size: 24px;
+    font-family: 'Chillax-Variable';
+    color: rgba(218, 197, 167, 0.6);
+}
+
+#logos {
+    overflow: hidden;
+}
+
+#logos .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: mouve 8s linear infinite;
+}
+
+#logos .image {
+    margin: 0px 50px;
+}
+
+@keyframes mouve {
+    0% { transform: translatex(-100%); }
+    100% { transform: translatex(100vw); }
+  }
+
+#variant .box {
+    background-color: rgba(218, 197, 167, 0.05);
+    border: 1px solid rgba(218, 197, 167, 0.15);
+    padding: 40px;
+    color: rgba(218, 197, 167, 0.6);
+
+}
+
+#variant {
+    padding: 80px 0px;
+}
+
+#variant .box p {
+    font-size: 13px;
+    font-family: 'Satoshi-Light';
+    margin-bottom: 4px;
+}
+
+#variant .box h1 {
+    margin-bottom: 8px;
+    font-family: 'Satoshi-Light';
+    font-size: 24px;
+}
+
+
+
+#variant .box h3 {
+    font-size: 1rem;
+    margin-bottom: 32px;
+    font-family: 'Chillax-Variable';
+}
+
+#variant .line {
+    display: flex;
+    align-items: baseline;
+}
+
+#variant .line button {
+    border-radius: 50%;
+    font-size: 18px;
+    width: 32px;
+    color: rgba(218, 197, 167, 0.6);
+    height: 32px;
+    margin-right: 12px;
+    background-color: rgba(218, 197, 167, 0.05);
+    border: 1px solid rgba(218, 197, 167, 0.15);
+}
+
+#variant .line h2 {
+    font-size: 13px;
+    font-family: 'Satoshi-Light';
+}
+
+#work {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#work .line {
+    width: 80%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    color: rgba(218, 197, 167, 1);
+    margin-bottom: 30px;
+}
+
+#work .line h1 {
+    font-size: 64px;
+    font-family: 'Gambetta-LightItalic';
+}
+
+#work .see {
+    display: flex;
+    align-items: baseline;
+}
+
+#work .see button {
+    border-radius: 50%;
+    font-size: 18px;
+    width: 32px;
+    color: rgba(218, 197, 167, 0.6);
+    height: 32px;
+    margin-right: 12px;
+    background-color: rgba(218, 197, 167, 0.05);
+    border: 1px solid rgba(218, 197, 167, 0.15);
+}
+
+#work .see p {
+    font-size: 13px;
+    font-family: 'Satoshi-Light';
+}
+
+#work .box {
+    position: relative;
+}
+
+#work .choose {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(218, 197, 167, 0.05);
+    border: 1px solid rgba(218, 197, 167, 0.15);
+    padding: 10px 20px;
+    position: absolute;
+    z-index: 1;
+    backdrop-filter: blur(5px);
+    bottom: 27px;
+    left: 27px;
+    color: rgba(218, 197, 167, 0.6);
+    width: 91%;
+    align-items: center;
+
+}
+
+#work .row {
+    margin-bottom: 32px;
+}
+
+#text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#text .title {
+    width: 55%;
+    text-align: center;
+    color: rgba(218, 197, 167, 0.6);
+}
+
+#text .title h3 {
+    font-size: 13px;
+    font-family: 'Satoshi-Light';
+}
+
+#text .title h1 {
+    font-size: 128px;
+    font-family: 'Gambetta-LightItalic';
+}
+
+#text .title p {
+    font-size: 20px;
+    font-family: 'Chillax-Variable';
+}
+
+#text button,
+#steps button {
+    margin: 12px;
+    border-radius: 50%;
+    font-size: 18px;
+    width: 32px;
+    color: rgba(218, 197, 167, 0.6);
+    height: 32px;
+    margin-right: 12px;
+    background-color: rgba(218, 197, 167, 0.05);
+    border: 1px solid rgba(218, 197, 167, 0.15);
+}
+
+#text .line {
+    width: 1px;
+    height: 96px;
+    background-color: rgba(218, 197, 167, 0.15);
+}
+
+#steps>div {
+    display: flex;
+    justify-content: center;
+}
+
+#steps .line {
+    width: 1px;
+    height: 150px;
+    background-color: rgba(218, 197, 167, 0.15);
+}
+
+#steps .buton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 30px;
+    width: 9%;
+}
+
+#steps .empety {
+    width: 32%;
+}
+
+#steps .box {
+    background-color: rgba(218, 197, 167, 0.05);
+    border: 1px solid rgba(218, 197, 167, 0.15);
+    display: flex;
+    width: 32%;
+    flex-direction: column;
+    color: rgba(218, 197, 167, 0.6);
+    position: relative;
+}
+
+#steps .all {
+    padding: 33px;
+}
+
+#steps .time {
+    background-color: rgba(218, 197, 167, 0.05);
+    border: 1px solid rgba(218, 197, 167, 0.15);
+    margin: 10px 10px 0px 0px;
+    font-size: 12px;
+    position: absolute;
+    right: 0;
+    padding: 5px 20px;
+}
+
+#steps .time p {
+    margin: auto;
+}
+
+#steps .box h3 {
+    font-size: 13px;
+    margin-bottom: 4px;
+}
+
+#steps .box h1 {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+#steps .box .all p {
+    font-size: 14px;
+    margin-bottom: 32px;
+}
+
+#steps .box .text {
+    display: flex;
+}
+
+#steps .text h2 {
+    font-size: 16px;
+    margin-left: 16px;
+}
+
+#steps .two .all p {
+    font-size: 13px;
+}
+
+#steps .two {
+    transform: translateY(-10%);
+}
+
+#steps .tree {
+    transform: translateY(-20%);
+}
+
+#steps .four {
+    transform: translateY(-30%);
+}
+
+#steps .five {
+    transform: translateY(-40%);
+}
+
+
+
+#pages {
+    padding-top: 50px;
+}
+
+#pages .box {
+    background-color: rgba(218, 197, 167, 0.05);
+    border: 1px solid rgba(218, 197, 167, 0.15);
+    padding: 48px;
+}
+
+#pages .box .logo .image {
+    width: 30px;
+    height: 20px;
+    margin-bottom: 32px;
+}
+
+#pages .box h1 {
+    font-size: 24px;
+    color: rgba(218, 197, 167, 1);
+    font-family: 'Satoshi-Light';
+    margin-bottom: 8px;
+}
+
+#pages .box p {
+    font-size: 16px;
+    color: rgba(218, 197, 167, 0.6);
+    font-family: 'Chillax-Variable';
+    margin-bottom: 40px;
+}
+
+#pages .box .name {
+    display: flex;
+    align-items: center;
+}
+
+#pages .name .image {
+    border-radius: 50%;
+    width: 70px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+#pages .name h3 {
+    font-size: 13px;
+    color: rgba(218, 197, 167, 1);
+    font-family: 'Satoshi-Light';
+}
+
+#pages .name h4 {
+    font-size: 14px;
+    color: rgba(218, 197, 167, 0.6);
+    font-family: 'Chillax-Variable';
+}
+
+#pages .two h1 {
+    margin-bottom: 20px;
+}
+
+#pages .two p {
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+
+#pages .tree {
+    margin-top: 40px;
+}
+
+#pages .box .big .image {
+    width: 20%;
+}
+
+#pages .box .mid .image {
+    width: 12%;
+}
+
+#arik {
+    position: relative;
+}
+
+#top .title-two h1 {
+    font-size: 98px;
+    font-family: 'Gambetta-LightItalic';
+    transform: translateX(-21%);
+}
+
+#top .title-two p {
+    font-size: 98px;
+    font-family: 'Gambetta-LightItalic';
+    color: rgba(218, 197, 167, 0.6);
+    transform: translateX(8%);
+}
+
+#top .title-two {
+    transform: translateY(-250%);
+    color: rgba(218, 197, 167, 1);
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+#top .paragraph {
+    display: flex;
+}
+
+#top h2,
+#top .text {
+    width: 100%;
+}
+
+#top .logos {
+    display: flex;
+}
+
+#top .logos .image {
+    width: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid rgba(218, 197, 167, 0.15);
+    margin-right: 10px;
+}
+
+#top h2 {
+    color: rgba(218, 197, 167, 1);
+    font-size: 48px;
+    font-family: 'Gambetta-LightItalic';
+    display: flex;
+    justify-content: center;
+}
+
+#top h3 {
+    font-size: 18px;
+    color: rgba(218, 197, 167, 0.6);
+    font-family: 'Chillax-Variable';
+    width: 80%;
+    margin-bottom: 32px;
+}
+

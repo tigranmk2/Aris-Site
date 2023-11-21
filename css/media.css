@@ -1,0 +1,225 @@
+@media screen and (max-width:480px) {
+
+    header .box{
+        display: flex;
+        padding: 7px 150px;
+    }
+
+    #top {
+        background-image: url('../images/Image.png');
+        background-size: contain;
+        background-attachment: fixed;
+    }
+
+    header .logo {
+        margin: auto;
+        margin-left: -138px;
+    }
+    .hamburger-menu{
+        display: block;
+    }
+
+    header nav{
+        display: none;
+    }
+
+    #menu__toggle {
+        opacity: 0;
+      }
+      
+      #menu__toggle:checked ~ .menu__btn > span {
+        transform: rotate(45deg);
+
+      }
+      #menu__toggle:checked ~ .menu__btn > span::before {
+        top: 0;
+        transform: rotate(0);
+      }
+      #menu__toggle:checked ~ .menu__btn > span::after {
+        top: 0;
+        transform: rotate(90deg);
+      }
+      #menu__toggle:checked ~ .menu__box {
+        visibility: visible!important;
+        left: 0;
+        
+      }
+
+    header .box button{
+        margin-right: -106px;
+    }
+
+    #top .background {
+        display: none;
+        padding-bottom: 50px;
+
+    }
+
+    #logos .logo .image {
+        margin: 40px 30px 0px 30px;
+        width: 20%;
+    }
+
+
+#top .title {
+    transform: translateY(0);
+    padding-top: 86px;
+}
+
+#top .title h1 {
+    font-size: 62px;
+}
+
+#top .title p {
+    font-size: 18px;
+}
+
+#logos .image {
+    margin: 40px 5px 0px 5px!important;
+    width: 10%!important;
+}
+
+#variant .box {
+    margin: 10px 0px;
+}
+
+#work .line {
+    width: 100%;
+    flex-direction: column;
+    padding: 0px 16px;
+}
+
+#work .box {
+    margin: 10px 0px;
+}
+
+#work .row {
+    margin-bottom: 0px;
+}
+
+#text .title p {
+    font-size: 18px;
+}
+
+#text .title h1 {
+    font-size: 62px;
+}
+
+#steps .empety {
+    display: none;
+}
+
+#steps .one {
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 30px;
+}
+
+#steps .line {
+    height: 230px;
+}
+
+#steps .one .box {
+    width: 100%;
+}
+
+#steps .box {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#steps .two {
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 30px;
+}
+
+#steps .tree {
+    transform: translateY(0);
+    padding-right: 30px;
+}
+
+#steps .four {
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 30px;
+}
+
+#steps .five {
+    transform: translateY(0);
+    padding-right: 30px;
+}
+
+#text .title {
+    width: 100%;
+}
+
+#text .title h1 {
+    font-size: 62px;
+}
+
+#text .title p {
+    font-size: 18px;
+}
+
+#pages .box {
+    margin: 10px 0px;
+}
+
+#top .title-two {
+    display: none;
+}
+
+#top .paragraph {
+    flex-direction: column;
+}
+
+#top h2 {
+    font-size: 40px;
+}
+
+#top .logos {
+    display: flex;
+    justify-content: center;
+}
+
+#top .text {
+    padding: 0px 25px;
+}
+
+#project h1 {
+    font-size: 62px
+}
+
+#project {
+    padding: 100px 20px;
+}
+
+footer .col-12>div {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+}
+
+#bottom {
+    display: none;
+}
+
+#foot-sec button {
+    width: 455;
+}
+
+#text button {
+    margin: 0px 29px;
+}
+
+#text .line {
+    margin-left: 45px;
+}
+
+#text {
+    align-items: flex-start;
+}
+}

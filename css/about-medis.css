@@ -1,0 +1,42 @@
+@media screen and (max-width:480px) {
+    #box {
+        padding: 10px;
+    }
+
+    #box .page {
+        width: 100%;
+    }
+
+    #topp{
+        padding-top: 50px!important;
+        justify-content: normal;
+    }
+
+    #topp .title{
+        width: 100%;
+        padding: 10px!important;
+    }
+
+    #topp .title h1{
+        font-size: 80px;
+    }
+
+    #topp .title p{
+        font-size: 15px;
+    }
+
+    #box .box h1 {
+        font-size: 23px;
+        font-family: 'Satoshi-Light';
+        margin-bottom: 20px;
+    }
+
+    #box .box p {
+        font-size: 14px;
+    }
+
+    #box .bot h1 {
+        font-size: 17px;
+        font-family: 'Satoshi-Light';
+    }
+}

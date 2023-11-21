@@ -1,0 +1,150 @@
+main{
+    background-image: url('../images/Image.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#topp{
+    padding-top: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#topp .title{
+    width: 60%;
+    color: rgba(218, 197, 167, 1);
+}
+
+#topp .title .arrow{
+    display: flex;
+    font-family: 'Satoshi-Light';
+    align-items: baseline;
+    margin-bottom: 80px;
+}
+
+#topp .arrow a{
+    border-radius: 50%;
+    text-align: center;
+    width: 32px;
+    height: 32px;
+    background-color: rgba(218, 197, 167, 0.05);
+    border: 1px solid rgba(218, 197, 167, 0.15);
+}
+
+#topp .title h1{
+    font-size: 128px;
+    font-family: 'Gambetta-LightItalic';
+}
+
+#topp .title p{
+    font-size: 22px;
+    font-family: 'Chillax-Variable';
+    margin-bottom: 50px;
+}
+
+#topp .arrow h2{
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+#box{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+
+#box .page{
+    width: 59%;
+}
+
+#box .box{
+    background-color: #181716;
+    border: 1px solid rgba(218, 197, 167, 0.15);
+    color: #dac5a7;
+    padding: 40px;
+}
+
+#box .box h3{
+    font-size: 13px;
+    font-family: 'Satoshi-Light';
+    margin-bottom: 10px;
+}
+
+#box .box h1{
+    font-size: 40px;
+    font-family: 'Satoshi-Light';
+    margin-bottom: 10px;
+}
+
+#box .box p{
+    font-size: 16px;
+    font-family: 'Chillax-Variable';
+    margin-bottom: 20px;
+}
+
+#box .box .image{
+    border: 1px solid rgba(218, 197, 167, 0.15);
+}
+
+#box .web{
+    display: flex;
+    justify-content: space-between;
+    background-color: #181716;
+    border: 1px solid rgba(218, 197, 167, 0.15);
+    color: #dac5a7;
+    padding: 10px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#box .web .image{
+    width: 32px;
+    height: 32px;
+    margin-right: 20px;
+}
+
+#box .web .left{
+    display: flex;
+    align-items: center;
+}
+
+#box .web p{
+    margin: auto;
+    font-size: 13px;
+    font-family: 'Satoshi-Light';
+}
+
+#box .bot h2{
+    font-size: 13px;
+    font-family: 'Satoshi-Light';
+    margin-bottom: 10px;
+}
+
+#box .bot .like{
+    display: flex;
+    justify-content: space-between;
+}
+
+#box .bot h1{
+   font-size: 20px;
+    font-family: 'Satoshi-Light';
+}
+
+#box .bot p{
+    font-size: 13px;
+}
+
+#box .bot .line{
+    width: 100%;
+    height: 1px;
+    margin: 10px 0px;
+    background-color: rgba(218, 197, 167, 0.15);
+}
+
+#box .bot{
+   margin: 20px 0px;
+}
+
+#repeat{
+    margin:  0px;
+}

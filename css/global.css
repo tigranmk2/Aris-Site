@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+a{
+    display: inline-block;
+    color: inherit;
+    text-decoration: none;
+}
+
+ul,li{
+    list-style: none;
+}
+
+img{
+    width: 100%;
+}
+
+.image{
+    font-size: 0;
+}
+/* 
+header,section,footer{
+    padding: 0 50px;
+} */
+
+header,
+main,
+footer {
+    background-color: #020000;
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+header .box {
+    display: inline-flex;
+    align-items: baseline;
+    background-color: rgba(218, 197, 167, 0.05);
+    border: 1px solid rgba(218, 197, 167, 0.15);
+    padding: 10px 20px;
+    position: fixed;
+    z-index: 777;
+    backdrop-filter: blur(5px);
+    font-family: 'Satoshi-Light';
+
+}
+
+
+  
+  .menu__btn {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 14px;
+    left: 260px;
+     
+    width: 26px;
+    height: 26px;
+  
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+  
+    width: 100%;
+    height: 2px;
+  
+    background-color: #dac5a7;
+  
+    transition-duration: .25s;
+  }
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+  }
+  
+  .menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+    text-align: center;
+    width: 300px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+  
+    margin: 0;
+    padding: 50px 0;
+  border-color: #dac5a726;
+    list-style: none;
+  border-bottom-width: 1px;
+    background-color: #dac5a70d;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+  backdrop-filter: blur(30px);
+    transition-duration: .25s;
+  }
+
+  .hamburger-menu{
+    display: none;
+}
+  
+  .menu__item {
+    display: block;
+    padding: 12px 24px;
+  
+        color: rgba(218, 197, 167, 1);
+  
+    font-size: 20px;
+    
+  
+    text-decoration: none;
+    font-family: 'Chillax-Variable';
+    transition-duration: .25s;
+  }
+  
+
+header .logo {
+    margin: auto;
+}
+
+header .box ul {
+    display: flex;
+    color: rgba(218, 197, 167, 1);
+}
+
+header .box ul li {
+    margin: 0px 20px;
+    font-size: 14px;
+}
+
+header .box button {
+    background-color: rgba(218, 197, 167, 1);
+    color: rgba(14, 14, 14, 1);
+    border: 1px solid rgba(218, 197, 167, 1);
+    font-size: 14px;
+    transition: .4s;
+    padding: 10px 20px;
+}
+
+header .box button:hover {
+    background-color: rgba(218, 197, 167, 0.05);
+    border: 1px solid rgba(218, 197, 167, 0.15);
+    color: rgba(218, 197, 167, 1);
+}
+
+@font-face {
+    font-family: 'Chillax-Variable';
+    src: url('../fonts/Chillax-Variable.ttf') format('truetype');
+    font-weight: 200 700;
+    font-display: swap;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Gambetta-LightItalic';
+    src: url('../fonts/Gambetta-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-display: swap;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Satoshi-Light';
+    src: url('../fonts/Satoshi-Light.woff2') format('woff2'),
+        url('../fonts/Satoshi-Light.woff') format('woff'),
+        url('../fonts/Satoshi-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+}
+
+
+
+
+
+
+#repeat {
+    margin-top: 100px;
+    height: 54px;
+    width: 100%;
+    background-image: url("../images/Grid.svg");
+    background-repeat: repeat-x;
+    
+
+}
+
+
+#project {
+    text-align: center;
+    padding: 100px 0px;
+    background-color: rgba(218, 197, 167, 0.05);
+}
+
+#project h2 {
+    font-size: 13px;
+    color: rgba(218, 197, 167, 1);
+    margin-bottom: 8px;
+    font-family: 'Satoshi-Light';
+}
+
+#project h1 {
+    font-size: 128px;
+    color: rgba(218, 197, 167, 1);
+    margin-bottom: 8px;
+    font-family: 'Gambetta-LightItalic';
+}
+
+#project p {
+    font-size: 20px;
+    color: rgba(218, 197, 167, 0.6);
+    margin-bottom: 32px;
+    font-family: 'Chillax-Variable';
+}
+
+#project button, #foot-sec button {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    transition: .4s;
+    font-family: 'Satoshi-Light';
+    padding: 10px 20px;
+    background-color: rgba(218, 197, 167, 1);
+    border: 1px solid rgba(218, 197, 167, 1);
+}
+
+#project button:hover, #foot-sec button:hover {
+    border: 1px solid rgba(218, 197, 167, 1);
+    background-color: transparent;
+    color: rgba(218, 197, 167, 0.6);
+}
+
+footer #foot-sec {
+    background-color: rgba(218, 197, 167, 0.05);
+    font-family: 'Satoshi-Light';
+}
+
+#foot-sec .logo .image {
+    width: 57px;
+    height: 20px;
+    margin-bottom: 50px;
+}
+
+#foot-sec .web {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 16px;
+}
+
+#foot-sec .web .image {
+    width: 38px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 1px solid rgba(218, 197, 167, 0.15);
+}
+
+#foot-sec .web p {
+    font-size: 13px;
+    color: rgba(218, 197, 167, 0.6);
+    margin-left: 16px;
+}
+
+#foot-sec .pages h1{
+    font-size: 20px;
+    color: rgba(218, 197, 167, 1);
+    margin-bottom: 32px;
+}
+
+#foot-sec .pages p{
+    font-size: 13px;
+    color: rgba(218, 197, 167, 0.6);
+    margin-bottom: 16px;
+}
+
+#bottom{
+    background-color: rgba(218, 197, 167, 0.05);
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;  
+}
+
+#bottom h1{
+    font-size: 12px;
+    color: rgba(218, 197, 167, 0.6);
+    font-family: 'Chillax-Variable';
+}
+
+#bottom .circle{
+    border-radius: 50%;
+    background-color: rgba(218, 197, 167, 0.05);
+    border: 1px solid rgba(218, 197, 167, 0.15);
+    width: 46px;
+    height: 46px;
+    text-align: center;
+    color:rgba(218, 197, 167, 1);
+}
+
+#bottom .left{
+    display: flex;
+    align-items: baseline
+}
+
+#bottom p{
+    font-size: 13px;
+    color:rgba(218, 197, 167, 1);
+    margin: auto 16px;
+    font-family: 'Satoshi-Light';
+}
